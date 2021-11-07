@@ -1,0 +1,58 @@
+header {
+     position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: red;
+   
+  }
+
+  #header-img {
+    width: 120px;
+    height: 80px;
+   
+  }
+
+  nav ul {
+    display: flex;
+    
+  }
+
+  nav li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  nav li:hover {
+  color:red;
+  
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  
+
+  @media (max-width: 450px) {
+    h1 {
+      font-size: 1.5em;
+    }
+  }
+
+  p {
+   
+  position: relative;
+    font-size:25px;
+  }
+
+  main {
+    display:flex;
+  }
+video{
+ position: relative;
+  
+}
